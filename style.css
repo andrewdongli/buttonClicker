@@ -1,0 +1,119 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.empty{
+    flex:1;
+}
+.content{
+    flex:6;
+}
+/* CSS for the header */
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    height:50px;
+    background-color:#cccccc ;
+}
+
+.search > input{
+    border: 2px solid black;
+    height:20px;
+
+}
+.login > button{
+   color:white;
+    background-color: #2b78e4;
+    padding:3px 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 1px black;
+}
+
+
+/* CSS for main content  */
+.main-content{
+    display: flex;
+    flex-direction: row;
+}
+.left-content{
+    display: flex;
+    flex-direction: column;
+    flex:2;
+}
+.right-content{
+    flex:1;
+}
+
+/* CSS for left side */
+.top-left{
+    display:flex;
+    flex-direction: row;
+    height:150px;
+    margin:20px 20px 20px 0px;
+    border: 2px solid black;
+    align-items: center;
+}
+.left{
+    flex:1;
+    text-align: center;
+}
+.left > button{
+    background-color: #ffd966;
+    border: 2px solid black;
+    box-shadow: 2px 2px 1px black;
+
+    padding: 5px 10px;
+    margin-top:10px;
+}
+
+.bottom-left{
+    display:flex;
+    flex-direction: row;
+    height:150px;
+    margin:20px 20px 20px 0px;
+    border: 2px solid black;
+    align-items: center;
+}
+.right > button{
+    background-color: #ffd966;
+    border: 2px solid black;
+    box-shadow: 2px 2px 1px black;
+    
+    padding: 5px 10px;
+    margin-top:10px;
+}
+.right{
+    flex:2;
+    text-align: center;
+}
+
+
+/* CSS for right side */
+.right-content{
+    display:flex;
+    flex-direction: column;
+    height:150px;
+    margin:20px 0px 20px 20px;
+    border: 2px solid black;
+    align-items: center;
+}
+
+.right-content > .text{
+    margin:10px;
+    min-width: 170px;
+
+}
+.right-content > button{
+    background-color: #93c47d;
+    border: 2px solid black;
+    box-shadow: 2px 2px 1px black;
+
+    margin-top:10px;
+    padding:5px 20px;
+}
